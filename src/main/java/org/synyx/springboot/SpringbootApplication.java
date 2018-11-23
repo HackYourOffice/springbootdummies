@@ -1,12 +1,14 @@
-package org.synyx.springboot0;
+package org.synyx.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class Springboot0Application {
+public class SpringbootApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Springboot0Application.class, args);
+
+        SpringApplication.run(SpringbootApplication.class, args);
     }
 }
